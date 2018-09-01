@@ -30,6 +30,8 @@ The column names from column3 to column68 are defined as follows (to make them m
 * "mean" and "std" means mean value and standard deviation accordingly
 * "xdirection"/"ydirection"/"zdirection" is used to denote 3-axial signals in the X, Y and Z directions.
 
+The value (observation) of these variables is the average of each variable for each activity and each subject.
+
 
 
 
