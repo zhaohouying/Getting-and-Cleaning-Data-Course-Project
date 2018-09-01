@@ -66,8 +66,8 @@ labeled <- cbind(activitynamed[dim(activitynamed)[2]],activitynamed[dim(activity
 #Step5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 library(reshape2)
 melted <- melt(labeled,id.vars = c("subject","label"))
-groupedmean <- dcast(test,subject+label~variable,mean)
-write.csv(groupedmean,file="../meanbysubjectandlabel.csv",row.names = FALSE)
-print("meanbysubjectandlabel.csv is the data set with the average of each variable for each activity and each subject.")
+groupedmean <- dcast(melted,subject+label~variable,mean)
+write.table(groupedmean,file="../meanbysubjectandlabel.txt",row.names = FALSE)
+print("meanbysubjectandlabel.txt is the data set with the average of each variable for each activity and each subject.")
 
 setwd("../")

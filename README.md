@@ -42,4 +42,4 @@ Then we further merge the two filtered data frame to combine the descriptive var
 We use reshape2 package here to reshape the data set created in step4.
 Firstly we melt the data set in step 4, with activity and subject as the id variable. Then we recast the metled data frame to creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Data set generated in Step5 is exported as meanbysubjectandlabel.csv.
+Data set generated in Step5 is exported as meanbysubjectandlabel.txt.

@@ -1,7 +1,7 @@
 # CodeBook for Getting-and-Cleaning-Data-Course-Project
 For assignment of Coursera course - Getting and Cleaning Data Course Project
 
-## Description of finaldataset.csv
+## Description of meanbysubjectandlabel.txt
 
 ### column1: subject
 This column identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
