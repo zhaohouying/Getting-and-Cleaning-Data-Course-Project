@@ -16,9 +16,9 @@ The R script called run_analysis.R does the following:
 Firstly, the data folder which would contain the downloaded and process data is created.
 And then the the zip file mentioned above will be downloaded and unzipped into the data folder.
 Next step is to read in the data from the folder just unzipped:
-*Directly under the unzipped folder, there are four files, within which the activity_labels.txt and features.txt will be read in later.
-*Under the sub-folder 'train', there are three files (X_train.txt,y_train.txt,subject_train). The files are all read in as data frame.
-*Under the sub-folder 'test', there are three files (X_test.txt,y_test.txt,subject_test). The files are all read in as data frame.
+* Directly under the unzipped folder, there are four files, within which the activity_labels.txt and features.txt will be read in later.
+* Under the sub-folder 'train', there are three files (X_train.txt,y_train.txt,subject_train). The files are all read in as data frame.
+* Under the sub-folder 'test', there are three files (X_test.txt,y_test.txt,subject_test). The files are all read in as data frame.
 
 ### Step1: Merges the training and the test sets to create one data set.
 This step firstly combines the three train data frames into one train data frame and the three test data frames into one test data frame through cbind (column bind).
