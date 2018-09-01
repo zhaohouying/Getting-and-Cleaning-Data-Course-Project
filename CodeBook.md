@@ -26,9 +26,9 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The column names from column3 to column68 are defined as follows (to make them more readable, dot is used to seperate each sections in the name):
 
-*"time" denote time whole "freq" denote frequency domain
-*"mean" and "std" means mean value and standard deviation accordingly
-*"xdirection"/"ydirection"/"zdirection" is used to denote 3-axial signals in the X, Y and Z directions.
+* "time" denote time whole "freq" denote frequency domain
+* "mean" and "std" means mean value and standard deviation accordingly
+* "xdirection"/"ydirection"/"zdirection" is used to denote 3-axial signals in the X, Y and Z directions.
 
 
 
